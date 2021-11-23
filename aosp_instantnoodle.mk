@@ -27,6 +27,8 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+
 PRODUCT_NAME := aosp_instantnoodle
 PRODUCT_DEVICE := instantnoodle
 PRODUCT_MANUFACTURER := OnePlus
